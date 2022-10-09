@@ -40,6 +40,7 @@ import static EasyBot.AnswerMessagesGenerator.WordGeneratorMsg.*;
 public class EasyBot extends TelegramLongPollingBot {
 
 
+
     @SneakyThrows
     public static void main(String[] args) {
         System.getProperties().load(ClassLoader.getSystemResourceAsStream("application.properties"));
