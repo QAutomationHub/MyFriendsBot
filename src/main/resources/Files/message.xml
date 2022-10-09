@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<message xmlns="urn://pvv-no-sign/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <metadata>
+        <messageId>$messageId</messageId>
+        <correlationId>$correlationId</correlationId>
+        <sender>$sender</sender>
+        <recipient>$recipient</recipient>
+        <sendingDate>$sendingDate</sendingDate>
+    </metadata>
+    <data>
+        <attachment>
+            <fileName>$fileName</fileName>
+            <attachmentFilesList>
+                <attachmentFile>ok-zk_common_NO_sign.xsd</attachmentFile>
+                <attachmentFile>message_NO_sign.xml</attachmentFile>
+            </attachmentFilesList>
+            <fileGenerationDate>2022-09-19T15:20:37</fileGenerationDate>
+            <attachmentHashSum>$hash</attachmentHashSum>
+        </attachment> 
+    </data>
+</message>
